@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  body {
+    @apply bg-background text-text font-sans;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(230, 51, 43, 0.35);
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.accent");
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .token-kw {
+    color: theme("colors.accent");
+  }
+  .token-var {
+    color: #7fb3e0;
+  }
+  .token-str {
+    color: #9fc97a;
+  }
+  .token-num {
+    color: #c79be0;
+  }
+  .token-comment {
+    color: theme("colors.muted");
+  }
+  .token-prompt {
+    color: theme("colors.accent");
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
