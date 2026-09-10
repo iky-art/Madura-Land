@@ -33,6 +33,9 @@ export default function Footer() {
           <Link to="/kontribusi" className="text-sm text-muted transition-colors hover:text-text">
             Kontribusi
           </Link>
+          <Link to="/sosial" className="text-sm text-muted transition-colors hover:text-text">
+            Sosial Media
+          </Link>
           <a
             href="https://discord.gg/SVUrAuZZ2"
             target="_blank"
