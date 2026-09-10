@@ -150,7 +150,7 @@ export default function Home() {
             ))}
           </dl>
 
-          <Button href="https://github.com" variant="secondary" external>
+          <Button href="https://github.com/iky-art/Madura-Land-Lang" variant="secondary" external>
             Lihat proyek
           </Button>
         </div>
