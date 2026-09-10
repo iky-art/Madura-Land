@@ -108,7 +108,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="https://github.com"
+                href="https://github.com/iky-art/Madura-Land-Lang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2.5 text-[15px] text-text"
