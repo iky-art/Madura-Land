@@ -129,17 +129,23 @@ export default function Home() {
         <div className="mx-auto max-w-shell px-6">
           <p className="mb-3 font-mono text-[13px] text-muted">05 — Rilis</p>
           <h2 className="mb-3.5 text-[1.6rem] font-semibold leading-tight sm:text-[2.2rem]">
-            v1.0.0
+            v1.2.0
           </h2>
           <p className="mb-9 text-base text-muted">
-            Rilis stabil pertama dari Madura Land.
+            Madura Land sudah published resmi di npm — siapa pun bisa install.
           </p>
+
+          <CodeWindow filename="terminal" className="mb-8">
+            <span className="token-prompt">$</span> npm install -g madura-land
+            {"\n"}
+            <span className="token-prompt">$</span> madura hello.madura.l
+          </CodeWindow>
 
           <dl className="mb-8 grid gap-5 border-t border-border pt-7 sm:grid-cols-3">
             {[
               { label: "Status", value: "Stabil" },
               { label: "Ekstensi file", value: ".madura.l" },
-              { label: "Runtime", value: "Interpreter prototipe" },
+              { label: "Runtime", value: "CLI resmi (npm) + REPL" },
             ].map((item) => (
               <div key={item.label}>
                 <dt className="mb-2 font-mono text-[11.5px] uppercase tracking-wide text-muted">
@@ -150,9 +156,17 @@ export default function Home() {
             ))}
           </dl>
 
-          <Button href="https://github.com" variant="secondary" external>
-            Lihat proyek
-          </Button>
+          <div className="flex flex-wrap gap-3">
+            <Button href="https://www.npmjs.com/package/madura-land" variant="primary" external>
+              Lihat di npm
+            </Button>
+            <Button href="https://github.com/iky-art/madura-land-lang" variant="secondary" external>
+              Lihat di GitHub
+            </Button>
+            <Button href="https://discord.gg/SVUrAuZZ2" variant="ghost" external>
+              Join Discord
+            </Button>
+          </div>
         </div>
       </section>
     </>

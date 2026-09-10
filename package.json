@@ -1,7 +1,7 @@
 {
   "name": "madura-land",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.0",
   "type": "module",
   "description": "Website resmi Madura Land — basa pemrograman eksperimental dengan sintaksis terinspirasi Basa Madura.",
   "scripts": {

@@ -53,7 +53,17 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="https://github.com"
+                href="https://discord.gg/SVUrAuZZ2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b-2 border-transparent pb-1 pt-1 text-sm text-muted transition-colors duration-150 hover:text-text"
+              >
+                Discord
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/iky-art/madura-land-lang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b-2 border-transparent pb-1 pt-1 text-sm text-muted transition-colors duration-150 hover:text-text"
@@ -108,7 +118,17 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="https://github.com"
+                href="https://discord.gg/SVUrAuZZ2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block py-2.5 text-[15px] text-text"
+              >
+                Discord
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/iky-art/madura-land-lang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2.5 text-[15px] text-text"

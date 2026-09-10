@@ -34,7 +34,15 @@ export default function Footer() {
             Kontribusi
           </Link>
           <a
-            href="https://github.com"
+            href="https://discord.gg/SVUrAuZZ2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted transition-colors hover:text-text"
+          >
+            Discord
+          </a>
+          <a
+            href="https://github.com/iky-art/madura-land-lang"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted transition-colors hover:text-text"
@@ -45,7 +53,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-start gap-3">
           <span className="rounded-[3px] border border-border px-2 py-1 font-mono text-xs text-muted">
-            v1.0.0
+            v1.2.0
           </span>
           <p className="text-[12.5px] text-muted">© 2026 Proyek Madura Land</p>
         </div>

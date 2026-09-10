@@ -100,7 +100,7 @@ export default function Docs() {
   return (
     <DocsShell sidebar={sidebar}>
       <DocSection id="pendahuluan">
-        <p className="mb-2.5 font-mono text-[13px] text-muted">Dokumentasi · v1.0.0</p>
+        <p className="mb-2.5 font-mono text-[13px] text-muted">Dokumentasi · v1.2.0</p>
         <h1 className="mb-4 text-[2rem] font-semibold leading-tight sm:text-[2.6rem]">
           Pendahuluan
         </h1>
@@ -110,7 +110,8 @@ export default function Docs() {
           penulisan program <code className="rounded border border-border bg-surface px-1.5 py-px font-mono text-accent">.madura.l</code>, dari variabel sampai fungsi.
         </p>
         <p className="max-w-[70ch] text-[14.5px] leading-relaxed text-muted">
-          Sintaksis inti sudah stabil di v1.0.0, tapi runtime dan tooling di
+          Sintaksis inti sudah stabil sejak v1.0.0, dan sekarang berada di{" "}
+          v1.2.0 dengan tambahan perulangan, larik, dan fungsi bawaan. Runtime dan tooling di
           sekitarnya masih terus dikembangkan. Dokumentasi ini akan mengikuti
           setiap perubahan tersebut.
         </p>
@@ -119,13 +120,16 @@ export default function Docs() {
       <DocSection id="instalasi">
         <h2 className="mb-3.5 text-[1.4rem] font-semibold">Instalasi</h2>
         <p className="mb-4 max-w-[70ch] text-[15.5px] leading-relaxed">
-          CLI <code className="rounded border border-border bg-surface px-1.5 py-px font-mono text-accent">madura</code> menjalankan file <code className="rounded border border-border bg-surface px-1.5 py-px font-mono text-accent">.madura.l</code> langsung dari terminal.
+          Madura Land tersedia resmi di npm. Install CLI <code className="rounded border border-border bg-surface px-1.5 py-px font-mono text-accent">madura</code> secara global untuk menjalankan file <code className="rounded border border-border bg-surface px-1.5 py-px font-mono text-accent">.madura.l</code> langsung dari terminal.
         </p>
         <CodeWindow filename="terminal">
+          <span className="token-comment"># Install global</span>
+          {"\n"}
+          <span className="token-prompt">$</span> npm install -g madura-land{"\n\n"}
           <span className="token-comment"># Verifikasi versi CLI</span>
           {"\n"}
           <span className="token-prompt">$</span> madura --version{"\n\n"}
-          madura 1.0.0
+          madura 1.2.0
         </CodeWindow>
       </DocSection>
 
@@ -245,14 +249,14 @@ export default function Docs() {
       <DocSection id="status" last>
         <h2 className="mb-3.5 text-[1.4rem] font-semibold">Status &amp; roadmap</h2>
         <p className="mb-5 max-w-[70ch] text-[15.5px] leading-relaxed">
-          Madura Land sudah memasuki rilis v1.0.0. Berikut ringkasan status
+          Madura Land sudah memasuki rilis v1.2.0, published resmi di npm. Berikut ringkasan status
           saat ini.
         </p>
         <dl className="grid gap-5 sm:grid-cols-3">
           {[
             { label: "Sintaksis inti", value: "Stabil" },
-            { label: "CLI resmi", value: "Dalam pengembangan" },
-            { label: "Standard library", value: "Belum tersedia" },
+            { label: "CLI resmi", value: "Tersedia di npm" },
+            { label: "Standard library", value: "Dasar (7 fungsi bawaan)" },
           ].map((item) => (
             <div key={item.label}>
               <dt className="mb-2 font-mono text-[11.5px] uppercase tracking-wide text-muted">

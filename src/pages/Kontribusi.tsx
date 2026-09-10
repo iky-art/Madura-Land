@@ -10,14 +10,19 @@ export default function Kontribusi() {
           Cara berkontribusi
         </h1>
         <p className="mb-3 max-w-[70ch] text-[15.5px] leading-relaxed">
-          Madura Land baru saja masuk v1.0.0, dan masih banyak bagian yang
-          terbuka untuk berubah. Kontribusi dalam bentuk apa pun — laporan
-          bug, diskusi sintaksis, atau perbaikan dokumentasi — sangat
-          membantu.
+          Madura Land sudah di v1.2.0 dan published resmi di npm, tapi masih
+          banyak bagian yang terbuka untuk berubah. Kontribusi dalam bentuk
+          apa pun — laporan bug, diskusi sintaksis, atau perbaikan
+          dokumentasi — sangat membantu.
         </p>
         <p className="max-w-[70ch] text-[14.5px] leading-relaxed text-muted">
           Karena proyek ini masih berkembang, tidak ada jaminan setiap usulan
-          akan diterima. Tapi setiap diskusi dibaca dan dipertimbangkan.
+          akan diterima. Tapi setiap diskusi dibaca dan dipertimbangkan. Diskusi
+          santai juga bisa lewat{" "}
+          <a href="https://discord.gg/SVUrAuZZ2" target="_blank" rel="noopener noreferrer" className="text-accent">
+            Discord
+          </a>
+          .
         </p>
       </DocSection>
 
@@ -57,7 +62,7 @@ export default function Kontribusi() {
         <CodeWindow filename="terminal">
           <span className="token-comment"># 1. Fork &amp; clone repository</span>
           {"\n"}
-          <span className="token-prompt">$</span> git clone https://github.com/&lt;kamu&gt;/madura-land.git
+          <span className="token-prompt">$</span> git clone https://github.com/iky-art/madura-land-lang.git
           {"\n\n"}
           <span className="token-comment"># 2. Install dependencies</span>
           {"\n"}

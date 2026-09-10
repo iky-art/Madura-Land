@@ -57,11 +57,17 @@ export default function Hero() {
               </svg>
               Dokumentasi
             </Button>
+            <Button href="https://discord.gg/SVUrAuZZ2" variant="ghost" external>
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                <path d="M13.5 3.8c-1-.5-2.1-.8-3.2-1l-.16.3c1 .25 1.95.63 2.83 1.14a10.9 10.9 0 0 0-9.9 0 8.3 8.3 0 0 1 2.86-1.15l-.16-.3c-1.12.18-2.2.5-3.2 1C1 6.9.5 10 .7 13c1.16.86 2.44 1.5 3.8 1.9l.5-.68a7.9 7.9 0 0 1-1.24-.6l.27-.2a9.6 9.6 0 0 0 7.9 0l.28.2c-.4.24-.82.44-1.25.6l.5.68c1.37-.4 2.65-1.04 3.8-1.9.28-3.44-.6-6.5-2.27-9.2ZM5.78 11.1c-.68 0-1.23-.63-1.23-1.4 0-.78.54-1.4 1.23-1.4.68 0 1.24.63 1.23 1.4 0 .77-.55 1.4-1.23 1.4Zm4.44 0c-.68 0-1.23-.63-1.23-1.4 0-.78.54-1.4 1.23-1.4.68 0 1.23.63 1.23 1.4 0 .77-.55 1.4-1.23 1.4Z" />
+              </svg>
+              Discord
+            </Button>
           </div>
 
           <div className="flex items-center gap-3 font-mono text-xs text-muted">
             <span className="h-px w-6 bg-border" />
-            <span>v1.0.0</span>
+            <span>v1.2.0</span>
             <span className="h-px w-6 bg-border" />
             <span className="text-[11px] uppercase tracking-wide">
               Open source / made with Madura
