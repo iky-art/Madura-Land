@@ -7,6 +7,7 @@ import Examples from "./pages/Examples";
 import Changelog from "./pages/Changelog";
 import Kontribusi from "./pages/Kontribusi";
 import Sosial from "./pages/Sosial";
+import Legal from "./pages/Legal";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/changelog" element={<Changelog />} />
         <Route path="/kontribusi" element={<Kontribusi />} />
         <Route path="/sosial" element={<Sosial />} />
+        <Route path="/legal" element={<Legal />} />
       </Routes>
     </Layout>
   );

@@ -12,6 +12,7 @@ const NAV_LINKS: NavLink[] = [
   { label: "Docs", to: "/docs" },
   { label: "Playground", to: "/#playground" },
   { label: "Download", to: "/#release" },
+  { label: "Sosial", to: "/sosial" },
 ];
 
 export default function Navbar() {
