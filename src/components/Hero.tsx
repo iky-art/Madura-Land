@@ -67,7 +67,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-3 font-mono text-xs text-muted">
             <span className="h-px w-6 bg-border" />
-            <span>v1.2.0</span>
+            <span>v1.2.1</span>
             <span className="h-px w-6 bg-border" />
             <span className="text-[11px] uppercase tracking-wide">
               Open source / made with Madura

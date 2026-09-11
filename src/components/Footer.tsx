@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="mt-12 flex flex-col items-start gap-3 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-[12.5px] text-muted">© 2026 Proyek Madura Land</p>
           <span className="rounded-[3px] border border-border px-2 py-1 font-mono text-xs text-muted">
-            v1.2.0
+            v1.2.1
           </span>
         </div>
       </div>

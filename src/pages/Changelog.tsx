@@ -14,6 +14,35 @@ export default function Changelog() {
         </p>
       </DocSection>
 
+      <DocSection id="v1-2-1">
+        <div className="mb-1.5 flex flex-wrap items-baseline gap-3.5">
+          <h2 className="text-[1.3rem] font-semibold">v1.2.1</h2>
+          <span className="font-mono text-[13px] text-muted">2026</span>
+        </div>
+        <p className="mb-4 text-[14.5px] text-muted">
+          Legal &amp; kejelasan privasi.
+        </p>
+
+        <p className="mb-1.5">
+          <span className="rounded border border-accent-dark px-2 py-0.5 font-mono text-[11px] uppercase tracking-wide text-accent">
+            Ditambahkan
+          </span>
+        </p>
+        <ul className="list-disc pl-5">
+          {[
+            "LEGAL.md di repo CLI — ringkasan lisensi, kebijakan privasi (CLI berjalan 100% lokal, tanpa telemetry), dan ketentuan penggunaan",
+            "Halaman /legal di website — Lisensi, Kebijakan Privasi, Ketentuan Penggunaan",
+            "Halaman /sosial — kanal resmi Madura Land (WhatsApp, Discord, YouTube, TikTok, Instagram) dan akun pembuat",
+            "Link Discord ditambahkan di navbar, footer, dan hero",
+            "sitemap.xml, robots.txt, dan verifikasi Google Search Console",
+          ].map((item) => (
+            <li key={item} className="mb-1.5 text-[15px] leading-relaxed text-muted">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </DocSection>
+
       <DocSection id="v1-2-0">
         <div className="mb-1.5 flex flex-wrap items-baseline gap-3.5">
           <h2 className="text-[1.3rem] font-semibold">v1.2.0</h2>

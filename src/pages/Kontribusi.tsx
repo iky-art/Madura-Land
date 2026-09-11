@@ -10,7 +10,7 @@ export default function Kontribusi() {
           Cara berkontribusi
         </h1>
         <p className="mb-3 max-w-[70ch] text-[15.5px] leading-relaxed">
-          Madura Land sudah di v1.2.0 dan published resmi di npm, tapi masih
+          Madura Land sudah di v1.2.1 dan published resmi di npm, tapi masih
           banyak bagian yang terbuka untuk berubah. Kontribusi dalam bentuk
           apa pun — laporan bug, diskusi sintaksis, atau perbaikan
           dokumentasi — sangat membantu.

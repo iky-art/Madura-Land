@@ -106,7 +106,7 @@ export default function Docs() {
   return (
     <DocsShell sidebar={sidebar}>
       <DocSection id="pendahuluan">
-        <p className="mb-2.5 font-mono text-[13px] text-muted">Dokumentasi · v1.2.0</p>
+        <p className="mb-2.5 font-mono text-[13px] text-muted">Dokumentasi · v1.2.1</p>
         <h1 className="mb-4 text-[2rem] font-semibold leading-tight sm:text-[2.6rem]">
           Pendahuluan
         </h1>
@@ -117,7 +117,7 @@ export default function Docs() {
         </p>
         <p className="max-w-[70ch] text-[14.5px] leading-relaxed text-muted">
           Sintaksis inti sudah stabil sejak v1.0.0, dan sekarang berada di{" "}
-          v1.2.0 dengan tambahan perulangan, larik, dan fungsi bawaan. Runtime dan tooling di
+          v1.2.1 dengan tambahan perulangan, larik, dan fungsi bawaan. Runtime dan tooling di
           sekitarnya masih terus dikembangkan. Dokumentasi ini akan mengikuti
           setiap perubahan tersebut.
         </p>
@@ -135,7 +135,7 @@ export default function Docs() {
           <span className="token-comment"># Verifikasi versi CLI</span>
           {"\n"}
           <span className="token-prompt">$</span> madura --version{"\n\n"}
-          madura 1.2.0
+          madura 1.2.1
         </CodeWindow>
       </DocSection>
 
@@ -255,7 +255,7 @@ export default function Docs() {
       <DocSection id="status" last>
         <h2 className="mb-3.5 text-[1.4rem] font-semibold">Status &amp; roadmap</h2>
         <p className="mb-5 max-w-[70ch] text-[15.5px] leading-relaxed">
-          Madura Land sudah memasuki rilis v1.2.0, published resmi di npm. Berikut ringkasan status
+          Madura Land sudah memasuki rilis v1.2.1, published resmi di npm. Berikut ringkasan status
           saat ini.
         </p>
         <dl className="grid gap-5 sm:grid-cols-3">

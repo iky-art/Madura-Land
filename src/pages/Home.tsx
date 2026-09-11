@@ -129,7 +129,7 @@ export default function Home() {
         <div className="mx-auto max-w-shell px-6">
           <p className="mb-3 font-mono text-[13px] text-muted">05 — Rilis</p>
           <h2 className="mb-3.5 text-[1.6rem] font-semibold leading-tight sm:text-[2.2rem]">
-            v1.2.0
+            v1.2.1
           </h2>
           <p className="mb-9 text-base text-muted">
             Madura Land sudah published resmi di npm — siapa pun bisa install.
